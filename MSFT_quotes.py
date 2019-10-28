@@ -87,7 +87,6 @@ print(f'2 Mo. High Avg:  $ {avg_hi:.4f}')
 print(f'2 Mo. Low Avg:   $ {avg_lo:.4f}')
 
 
-
 #Tried to do a 30 day average instead of the whole JSON file but too advanced, couldnt figure it out
 #print(f'30 day High Avg: $ {hiAvg:.4f}')
 #print(f'30 day Low Avg:   $ {loAvg:.4f}')
