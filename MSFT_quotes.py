@@ -76,7 +76,6 @@ print("Microsoft (MSFT) High/Low:")
 print()#TODAY'S PRICES
 print(f'Today\'s High:    $ {bigDictionary["Time Series (Daily)"][today]["2. high"]}')
 print(f'Today\'s Low:     $ {bigDictionary["Time Series (Daily)"][today]["3. low"]}')
-
 print() #Previous Day's PRICES
 print(f'Prev Day\'s High: $ {bigDictionary["Time Series (Daily)"][yest]["2. high"]}')
 print(f'Prev Day\'s Low:  $ {bigDictionary["Time Series (Daily)"][yest]["3. low"]}')
