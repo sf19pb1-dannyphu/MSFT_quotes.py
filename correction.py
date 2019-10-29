@@ -56,6 +56,21 @@ dates = sorted(dates, key = lambda d: datetime.datetime.strptime(d, "%Y-%m-%d"))
 today = dates[-1]   #The latest date is at the very end.
 yest  = dates[-2]   #Next-to-latest date.  Can combine to yest, today = dates[-2:]
 
+"""
+#Stock market is open only weekdays. Another way to do dates.
+
+if tod.weekday() == 0:  #if today is Monday
+    days = 3            #go back 3 days to the previous Friday
+else:
+    days = 1
+
+delta = datetime.timedelta(days = days)
+yest = (tod - delta).strftime("%Y-%m-%d")
+"""
+
+
+
+
 #Compute the average high and low using Python.
 
 hiList = [float(value["2. high"]) for value in dailyDict.values()]
